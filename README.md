@@ -7,7 +7,7 @@ Le but est de développer un **modèle de classification de texte** permettant d
 
 ---
 
-## 🚀 Approche
+##  Approche
 
 Plusieurs approches ont été utilisées pour approcher le problème, incluant **prétraitement du texte**, **représentation des données**, et **modélisation**.
 
@@ -41,7 +41,7 @@ Plusieurs approches ont été utilisées pour approcher le problème, incluant *
 
 ---
 
-## 🧹 Prétraitement du texte – Étapes expliquées
+##  Prétraitement du texte – Étapes expliquées
 
 Pour chaque texte du dataset `df_dataset` :
 
@@ -88,7 +88,7 @@ Assembler les tokens filtrés en une phrase pour le modèle.
 
 ---
 
-## 🏗 Exemple final dans `df_dataset`
+##  Exemple final dans `df_dataset`
 
 | Original Text | clean_text | tokens | label |
 |---------------|------------|--------|-------|
@@ -112,7 +112,7 @@ Assembler les tokens filtrés en une phrase pour le modèle.
 
 ---
 
-## 🏗 Structure du projet
+##  Structure du projet
 
 ```plaintext
 kaggle_competition_fake_or_real/
