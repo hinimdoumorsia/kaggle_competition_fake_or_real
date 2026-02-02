@@ -1,4 +1,4 @@
-# 📰 Fake or Real : L’imposteur – Compétition Kaggle
+#  Fake or Real : L’imposteur – Compétition Kaggle
 
 Ce dépôt contient mon approche pour la compétition Kaggle  
 **[Fake or Real: The Impostor Hunt](https://www.kaggle.com/competitions/fake-or-real-the-impostor-hunt)**.
@@ -100,7 +100,7 @@ Assembler les tokens filtrés en une phrase pour le modèle.
 
 ---
 
-## 📊 Résultats du dataset d’entraînement
+##  Résultats du dataset d’entraînement
 
 | text | cible | clean_text | tokens |
 |------|-------|------------|--------|
@@ -112,7 +112,7 @@ Assembler les tokens filtrés en une phrase pour le modèle.
 
 ---
 
-## 📚 Chargement des embeddings GloVe (300d) pour NLP
+## Chargement des embeddings GloVe (300d) pour NLP
 
 ### Idée principale
 Le code charge des vecteurs de mots pré-entraînés depuis GloVe et les stocke dans un dictionnaire Python.  
@@ -131,7 +131,7 @@ Ces vecteurs sont entraînés sur de grands corpus pour capturer les relations e
 
 ---
 
-## 📝 Création de vecteurs de documents avec GloVe
+##  Création de vecteurs de documents avec GloVe
 
 ### Idée principale
 - Si un mot n’est pas trouvé dans GloVe, il est remplacé par un vecteur nul.  
@@ -161,7 +161,7 @@ Elle récupère le vecteur de chaque mot trouvé dans GloVe.
 
 ---
 
-## 🏷️ Features Named Entity Recognition (NER) pour les articles
+##  Features Named Entity Recognition (NER) pour les articles
 
 ### Vue d’ensemble
 - Extraction des entités nommées (Person, Organization, Location, Date, etc.) via SpaCy pour chaque mot.  
@@ -174,7 +174,7 @@ Elle récupère le vecteur de chaque mot trouvé dans GloVe.
 
 ---
 
-## ✍️ Calcul de nouvelles features textuelles
+##  Calcul de nouvelles features textuelles
 
 Pour chaque ligne de `df_dataset`, les nouvelles features calculées sont :  
 - `avg_word_length` → longueur moyenne des mots  
@@ -191,7 +191,7 @@ Pour chaque ligne de `df_dataset`, les nouvelles features calculées sont :
 
 ---
 
-## ⚙️ Traitement du jeu de test
+##  Traitement du jeu de test
 - Les mêmes features textuelles sont calculées pour `df_test`.  
 - Vérification et traitement des outliers pour les colonnes numériques (`num_tokens`, `num_chars`, `avg_word_length`, `num_stopwords`, `readability_score`) via **capping IQR**.
 
@@ -212,7 +212,7 @@ Pour chaque ligne de `df_dataset`, les nouvelles features calculées sont :
 
 ---
 
-## 🔗 Analyse de corrélation des features numériques
+##  Analyse de corrélation des features numériques
 
 - Calcul de la matrice de corrélation pour les features numériques de `df_dataset` et visualisation avec **heatmap** (Seaborn).  
 - Identification des paires de colonnes fortement corrélées (|corr| > 0.8) :
@@ -224,7 +224,7 @@ Pour chaque ligne de `df_dataset`, les nouvelles features calculées sont :
 
 ---
 
-## ⚡ Analyse de l’importance des features fortement corrélées par rapport à la cible
+##  Analyse de l’importance des features fortement corrélées par rapport à la cible
 
 | Feature | Correlated With | Correlation | Importance | Décision | Justification |
 |---------|----------------|------------|------------|----------|---------------|
