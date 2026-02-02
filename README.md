@@ -1,5 +1,22 @@
 #  Fake or Real : L’imposteur – Compétition Kaggle
+---
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-1.x-150458?logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/Numpy-1.x-013243?logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit-learn-1.x-F7931E?logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-2.x-FF6F00?logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-2.x-EE4C2C?logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/SpaCy-3.x-FF0000?logo=spacy&logoColor=white" />
+  <img src="https://img.shields.io/badge/GloVe-300d-1A1A1A?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAF0lEQVQYV2NggAKGBgYmBgYGBiYGAAAwAE9+CBcUAAAAASUVORK5CYII=" />
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Matplotlib-3.x-11557C?logo=matplotlib&logoColor=white" />
+  <img src="https://img.shields.io/badge/Seaborn-0.12-4C72B0?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/NLP-Text%20Processing-008080" />
+  <img src="https://img.shields.io/badge/ML-Classification-6F42C1" />
+</p>
 
+---
 Ce dépôt contient mon approche pour la compétition Kaggle  
 **[Fake or Real: The Impostor Hunt](https://www.kaggle.com/competitions/fake-or-real-the-impostor-hunt)**.
 
