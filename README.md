@@ -265,6 +265,7 @@ kaggle_competition_fake_or_real/
 │   └── glove.6B.300d.txt
 │
 ├── README.md              # Documentation du projet
+```
 ---
 
 Ce README documente donc **la suite du pipeline**, depuis le chargement des embeddings GloVe, l’extraction NER, la création de nouvelles features textuelles, le traitement des outliers, jusqu’à l’analyse de corrélation et importance des features numériques.
