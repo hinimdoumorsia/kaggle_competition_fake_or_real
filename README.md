@@ -250,9 +250,7 @@ Pour chaque ligne de `df_dataset`, les nouvelles features calculées sont :
 | num_tokens | num_punct | 0.831494 |
 | num_chars | num_punct | 0.813295 |
 
----
 
-Ce README documente donc **la suite du pipeline**, depuis le chargement des embeddings GloVe, l’extraction NER, la création de nouvelles features textuelles, le traitement des outliers, jusqu’à l’analyse de corrélation et importance des features numériques.
          
 ---
 ##  Structure du projet
@@ -267,4 +265,6 @@ kaggle_competition_fake_or_real/
 │   └── glove.6B.300d.txt
 │
 ├── README.md              # Documentation du projet
+---
 
+Ce README documente donc **la suite du pipeline**, depuis le chargement des embeddings GloVe, l’extraction NER, la création de nouvelles features textuelles, le traitement des outliers, jusqu’à l’analyse de corrélation et importance des features numériques.
