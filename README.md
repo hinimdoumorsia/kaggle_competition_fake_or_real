@@ -286,3 +286,11 @@ kaggle_competition_fake_or_real/
 ---
 
 Ce README documente donc **la suite du pipeline**, depuis le chargement des embeddings GloVe, l’extraction NER, la création de nouvelles features textuelles, le traitement des outliers, jusqu’à l’analyse de corrélation et importance des features numériques.
+
+---
+## Contact
+
+Vous pouvez me contacter ici pour toute **collaboration**, **assistance** ou **maintenance de projets** :  
+[https://site-web-nodemailer.vercel.app](https://site-web-nodemailer.vercel.app)
+
+---
