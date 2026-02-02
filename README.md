@@ -112,19 +112,6 @@ Assembler les tokens filtrés en une phrase pour le modèle.
 
 ---
 
-##  Structure du projet
-
-```plaintext
-kaggle_competition_fake_or_real/
-│
-├── notebooks/             # Notebooks Jupyter pour l'entraînement et l'évaluation
-│   └── main_notebook.ipynb
-│
-├── glove/                 # Embeddings GloVe préentraînés (300d)
-│   └── glove.6B.300d.txt
-│
-├── README.md              # Documentation du projet
-
 ## 📚 Chargement des embeddings GloVe (300d) pour NLP
 
 ### Idée principale
@@ -267,3 +254,17 @@ Pour chaque ligne de `df_dataset`, les nouvelles features calculées sont :
 
 Ce README documente donc **la suite du pipeline**, depuis le chargement des embeddings GloVe, l’extraction NER, la création de nouvelles features textuelles, le traitement des outliers, jusqu’à l’analyse de corrélation et importance des features numériques.
          
+---
+##  Structure du projet
+
+```plaintext
+kaggle_competition_fake_or_real/
+│
+├── notebooks/             # Notebooks Jupyter pour l'entraînement et l'évaluation
+│   └── main_notebook.ipynb
+│
+├── glove/                 # Embeddings GloVe préentraînés (300d)
+│   └── glove.6B.300d.txt
+│
+├── README.md              # Documentation du projet
+
